@@ -1,0 +1,12 @@
+[Unit]
+Description=AutoSSH Daemon
+After=network.target
+
+[Service]
+User=root
+ExecStart=/usr/bin/ssh -N -Snone %i
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
