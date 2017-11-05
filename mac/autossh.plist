@@ -22,6 +22,8 @@
       <string>22222:localhost:22</string>
       <string>root@server</string>
     </array>
+    <key>KeepAlive</key>
+    <true/>
     <key>RunAtLoad</key>
     <true/>
     <key>StandardErrorPath</key>
