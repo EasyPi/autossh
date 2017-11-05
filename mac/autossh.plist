@@ -20,7 +20,7 @@
       <string>ExitOnForwardFailure=yes</string>
       <string>-R</string>
       <string>22222:localhost:22</string>
-      <string>root@server</string>
+      <string>root@1.2.3.4</string>
     </array>
     <key>KeepAlive</key>
     <true/>
